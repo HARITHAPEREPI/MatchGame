@@ -1,0 +1,20 @@
+.emoji-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.emoji-button {
+  background-color: transparent;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.emoji-icon {
+  width: 50px;
+  height: 50px;
+}

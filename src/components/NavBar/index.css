@@ -1,0 +1,49 @@
+.nav-bar-container {
+  display: flex;
+  justify-content: center;
+  background-color: #2c0e3a;
+  padding: 8px;
+}
+
+.title-and-score-container {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 80%;
+  max-width: 1000px;
+}
+
+.title-name {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.score-timer-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px;
+  padding: 10px;
+}
+
+.score-count {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+
+.score {
+  color: #fec653;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+
+.timer-icon {
+  width: 10px;
+  height: 10px;
+}
+
+.time {
+  color: #fec653;
+  font-size: 15px;
+  font-family: 'Roboto';
+}

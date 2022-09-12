@@ -1,0 +1,21 @@
+.tab-items-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tab-item-button {
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Roboto';
+  margin: 10px;
+  padding: 15px;
+}
+
+.active {
+  color: #fec653;
+  text-decoration-color: #fec653;
+  text-decoration: underline;
+}
